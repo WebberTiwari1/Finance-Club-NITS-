@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -24,12 +28,57 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Finance Club NITS</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
+  <title>Finance Club NITS</title>
+</head>
+
+<body>
+  <header>
+    <h1>WELCOME TO THE FINANCE CLUB OF NIT SILCHAR</h1>
+    <nav>
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Gallery</a>
+      <a href="">Contact</a>
+    </nav>
+  </header>
+  <div class="wrapper">
+    <section id='steezy'>
+      <h2> ABOUT US</h2>
+      <P>
+
+        <B>
+
+          Finance Club, NIT Silchar, is a student-run organization aimed at fostering and developing financial knowledge
+          and interest among students.
+
+          With a dedicated team, we strive to promote various finance-related fields, offering opportunities for
+          students
+          to explore through workshops, competitions, projects, and interactive sessions. Our goal is to equip students
+          with practical finance skills and insights to help them excel in the evolving financial world.
+      </P>
+      </B>
+
+    </section>
+
+    <section id='big'>
+      <h2>INVESTMENT TEAM</h2>
+      <p>
+
+        The Finance Club at NIT Silchar runs an Investment Team, where over 30 members actively manage real money across
+        three key verticals: Equity Research, Venture Capital, and Quantitative Finance.
+
+        The team fosters engaging discussions on markets and global economics, while providing students with hands-on
+        experience in financial markets. This practical exposure helps them develop deeper insights into investment
+        strategies and market dynamics.</p>
+
+
+
+
+    </section>
+  </div>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -39,5 +88,31 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+  <footer>
+    <div class="footer">
+      <div class="row">
+        <a href="https://www.facebook.com/financeclubnits/" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/financeclubnits/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://github.com/hackthatttt/" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/company/financeclub-nitsilchar/posts/?feedView=all" target="linkedin"><i
+            class="fa fa-linkedin"></i></a>
+      </div>
+
+      <div class="row">
+        <ul>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Our Services</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#''>Career</a></li>
+      </ul>
+      </div>
+      
+      <div class=" row">
+              FINANCE CLUB NITS Copyright © 2024 - All rights reserved || Designed By: DEVASHISH
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
